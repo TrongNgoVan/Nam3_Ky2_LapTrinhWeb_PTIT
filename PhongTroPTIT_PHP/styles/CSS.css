@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.link {
+	color: black;
+}
+.link:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+#path {
+	background-color: #eae8e8;
+	padding: 5px 15px;
+	margin-top: 20px;
+}
+
+.title_of_news {
+	color: white;
+}
+.title_of_news:hover {
+	text-decoration: none;
+	color: blue;
+}
+.select_tags {
+	background-color: #f8f8f8;
+	border: solid blue 1px;
+	padding: 5px 0px;
+	width: 100%;
+}
+.filter_option {
+	margin: 10px 0px;
+}
+
+.price_filter {
+	padding: 0px 0px 0px 5px;
+	border: solid blue 1px;
+}
+
+.simple_room_info_line {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+input:active, input:focus, select:active, select:focus,
+textarea:active, textarea:focus, option:active, option:focus{  
+	outline: 0;  
+	outline-style: none;  
+	outline-width: 0; 
+}
+button:active, button:focus{  
+	
+	outline: 0;  
+	outline-style: none;  
+	outline-width: 0; 
+}
+
+.link:active, .link:focus {
+	color: rgb(175, 0, 0);
+	text-decoration: none;
+}
+
+/* Xử lý CSS của phần khung hiển thị để đăng nhập, đăng ký */
+#login_background {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 0, 0, 0.6);
+	position: fixed;
+	z-index: 2;
+	display: none;
+}
+#logIn_area, #signIn_area {
+	padding: 10px 10px 20px 10px;
+	margin-top: 100px;
+	background-color: #f8f8f8;
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 3px;
+}
+
+
+button.login {
+	border: none;
+	background-color: #f8f8f8; 
+	font-weight: bold;
+	color: black;
+	padding: 10px 20px 10px 0px;
+}
+.logIn_menu {
+	margin-bottom: 10px;
+}
+.form-group {
+	margin-bottom: 20px;
+}
+/* Phần menu */
+
+/* Phần header */
+#header {
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#icon_acount {
+	height: 50px;
+	width: 50px; 
+	padding: 0px; 
+	margin-right: 10px; 
+	float: left;
+}
+
+/* Hai nút đăng nhập và đăng ký trên góc phải màn hình */
+.logIn_signIn_button:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+/* Nút close khung đăng nhập */
+.close_login_icon:hover {
+	cursor: pointer;
+}
+
+#menu_scroll {
+	background:rgb(175, 0, 0);
+	
+	top: 0px;
+	z-index: 1;
+	display: none;
+	position: fixed;
+	margin-bottom: 0px;
+	width: 100%;
+}
+#menu{
+	background : rgb(175, 0, 0);
+	margin-bottom: 0px;
+}
+
+.error_input {
+	color: red;
+}
+
